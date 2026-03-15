@@ -1,0 +1,27 @@
+{
+    "name": "my-cv",
+    "version": "1.0.0",
+    "description": "![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)",
+    "main": "index.js",
+    "scripts": {
+        "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+        "server": "npm run dev --prefix server",
+        "client": "npm run dev --prefix client",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ods-fsd/my-cv.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/ods-fsd/my-cv/issues"
+    },
+    "homepage": "https://github.com/ods-fsd/my-cv#readme",
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
+}

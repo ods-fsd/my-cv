@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Denys Orlyk | Junior Fullstack Developer',
     description: 'Fullstack developer building scalable web applications. Focus on MERN, Next.js, and TypeScript.',
-    url: 'https://odshub.pp.ua/',
+    url: 'https://denys-orlyk.vercel.app/',
     siteName: 'Denys Orlyk Portfolio',
     images: [
       {
@@ -45,7 +45,9 @@ export default function RootLayout({
       </head>
       <body>
         <Header />
-        {children}
+        
+          {children}
+      
         <Footer />
       </body>
     </html>

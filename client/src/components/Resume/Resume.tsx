@@ -48,7 +48,7 @@ export default function Resume() {
         <h3 className="section-heading-sidebar">Languages</h3>
         <ul className="sidebar-list">
           <li><span>Ukrainian</span> <span className="lang-level">Native</span></li>
-          <li><span>English</span> <span className="lang-level">A2</span></li>
+          <li><span>English</span> <span className="lang-level">B1</span></li>
           <li><span>Polish</span> <span className="lang-level">B2</span></li>
         </ul>
       </aside>
